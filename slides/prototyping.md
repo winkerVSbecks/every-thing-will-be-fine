@@ -30,9 +30,9 @@
 ### Why Designing With Code?
 
 - Promotes designers & developers to collaborate early<!-- .element: class="fragment" data-fragment-index="1" -->
-- Reduce the gap between building and learning – iterate faster<!-- .element: class="fragment" data-fragment-index="2" -->
+- Reduces the gap between building and learning – iterate faster<!-- .element: class="fragment" data-fragment-index="2" -->
 - Establishes the “UI Developer/Designer” role<!-- .element: class="fragment" data-fragment-index="3" -->
-- Problems related to dynamic canvases become more obvious<!-- .element: class="fragment" data-fragment-index="4" -->
+- Problems related to the “fluid canvas” become more obvious<!-- .element: class="fragment" data-fragment-index="4" -->
 - Start delivering value early<!-- .element: class="fragment" data-fragment-index="5" -->
 
 ---

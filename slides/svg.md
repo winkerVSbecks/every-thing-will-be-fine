@@ -34,7 +34,7 @@
 --
 
 <!-- .slide: data-background="#ffcc33" class="th-yellow" -->
-## Compose Svg in Code
+## Compose SVG in Code
 
 --
 
@@ -44,7 +44,3 @@ http://winkervsbecks.github.io/fermat-point
 
 --
 
-### Show Me the Code
-
-http://embed.plnkr.co/TPmwYueIeTsKLv2RecE3/preview
-http://plnkr.co/edit/TPmwYueIeTsKLv2RecE3?p=preview
