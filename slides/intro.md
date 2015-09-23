@@ -1,8 +1,9 @@
-
+<!-- .slide: data-background="#ffcc33" class="th-yellow" -->
 # hello.
 
 ---
 
+<!-- .slide: data-background="#ffcc33" class="th-yellow" -->
 <img style="border-radius: 50%; margin-right: 1rem; width: 125px;"
     src="https://pbs.twimg.com/profile_images/458803930713972736/dZevbKSe.png">
 #### Varun Vachhar
@@ -13,3 +14,12 @@
     </path>
   </svg>@winkerVSbecks
 </small>
+
+---
+
+## Overview
+
+- Designing with code
+- Where does it break down?
+- A ~~better~~ *different* approach to CSS
+- SVG
