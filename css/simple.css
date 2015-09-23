@@ -314,7 +314,25 @@ body {
   fill: #4691f6;
 }
 
-.svg-icon circle {
+.lg-svg-icon circle {
   stroke: #4691f6;
+  stroke-width: 1;
+}
+
+.lg-svg-icon {
+  display: inline-block;
+  height: 4em;
+  margin-right: 0.5rem;
+  width: 4em;
+}
+
+.lg-svg-icon path,
+.lg-svg-icon polygon,
+.lg-svg-icon rect {
+  fill: #fff;
+}
+
+.lg-svg-icon circle {
+  stroke: #fff;
   stroke-width: 1;
 }
