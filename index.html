@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Front-End Workshop</title>
+
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Varun Vachhar">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link href='http://fonts.googleapis.com/css?family=Esteban|Montserrat:700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/simple.css" id="theme">
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="css/hljs.css">
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+      <div class="slides">
+
+        <!-- Intro -->
+        <section class="th-yellow"
+          data-markdown="slides/intro.md"
+          data-background="#ffcc33"
+          data-separator-vertical="^\n--\n$">
+        </section>
+        <section data-markdown="slides/overview.md"></section>
+
+        <!-- Prototyping -->
+        <section data-markdown="slides/prototyping.md"
+          data-separator-vertical="^\n--\n$">
+        </section>
+        <section data-markdown="slides/html/readability.md"></section>
+        <section data-markdown="slides/html/attributes.md"
+          data-separator-vertical="^\n--\n$"></section>
+        <section data-markdown="slides/html/semantic-tags.md"
+          data-separator-vertical="^\n--\n$"></section>
+        <section data-markdown="slides/html/character-codes.md"
+          data-separator-vertical="^\n--\n$"></section>
+
+      </div><!-- END slides -->
+    </div><!-- END reveal -->
+
+    <script src="reveal-js/head.min.js"></script>
+    <script src="reveal-js/reveal.js"></script>
+    <script>
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'slide',
+        backgroundTransition: 'concave',
+        dependencies: [{
+          src: 'reveal-js/classList.js',
+          condition: function() { return !document.body.classList; }
+        }, {
+          src: 'reveal-js/marked.js',
+          condition: function() {
+            return !!document.querySelector( '[data-markdown]' );
+          }
+        }, {
+          src: 'reveal-js/markdown.js',
+          condition: function() {
+            return !!document.querySelector( '[data-markdown]' );
+          }
+        }, {
+          src: 'reveal-js/highlight.js',
+          async: true,
+          callback: function() { hljs.initHighlightingOnLoad(); }
+        }]
+      });
+    </script>
+  </body>
+</html>
