@@ -174,6 +174,7 @@ Ideation <svg class="svg-icon" viewBox="0 0 20 20">
 - Colours: `text and background`
 - Borders
 - [Layout](http://jxnblk.com/gravitons)
+- Animations
 
 --
 
@@ -212,6 +213,8 @@ Write Less CSS and Iterate Faster
 --
 
 ## [CSS Lego](http://www.basscss.com/docs/guides/ui)
+
+BEM + OOCSS
 
 --
 
