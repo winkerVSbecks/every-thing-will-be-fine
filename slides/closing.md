@@ -7,3 +7,10 @@
     </path>
   </svg>@winkerVSbecks
 </small>
+
+--
+
+### Photo Credits
+
+- [Jay Mantri](http://jaymantri.com)
+- [Brandon Lam](https://unsplash.com/brandon_lam)

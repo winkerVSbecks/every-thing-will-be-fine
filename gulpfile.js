@@ -17,7 +17,7 @@ var revealJsPaths = [
 gulp.task('gh-deploy', function() {
   return gulp.src('./build/**/*')
     .pipe(ghPages({
-      remoteUrl: 'git@github.com:rangle/front-end-workshop.git'
+      remoteUrl: 'git@github.com:winkerVSbecks/every-thing-will-be-fine.git'
     }));
 });
 
